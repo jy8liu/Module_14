@@ -1,18 +1,27 @@
 [
-    {
-      "username": "Sal",
-      "email": "sal@hotmail.com",
-      "password": "password12345"
-    },
-    {
-      "username": "Lernantino",
-      "email": "lernantino@gmail.com",
-      "password": "password12345"
-    },
-    {
-      "username": "Amiko",
-      "email": "amiko2k20@aol.com",
-      "password": "password12345"
-    }
-  ]
-  
+  {
+    "username": "TechGuru92",
+    "email": "techguru92@example.com",
+    "password": "securePass789"
+  },
+  {
+    "username": "CodeMaster",
+    "email": "codemaster@devmail.com",
+    "password": "mySecretCode123"
+  },
+  {
+    "username": "DevQueen",
+    "email": "devqueen@webmail.com",
+    "password": "queenOfCode456"
+  },
+  {
+    "username": "ByteBender",
+    "email": "bytebender@mail.com",
+    "password": "passWord09876"
+  },
+  {
+    "username": "ScriptNinja",
+    "email": "scriptninja@programmer.net",
+    "password": "ninjaCoder321"
+  }
+]

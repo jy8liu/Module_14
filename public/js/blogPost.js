@@ -1,5 +1,6 @@
 const inputButton = document.getElementById('commentButton');
 const updateButton = document.getElementById('updateButton');
+
 // Only render delete and update button if the logged in user is the original commenter or poster
 const renderButtons = async () => {
   const deleteButton = document.querySelectorAll('.col-3 button');
@@ -69,11 +70,7 @@ const updatePostHandler = async () => {
       alert(response.statusText);
     }
 
-  });
-  
-
-
-  
+  }); 
 }
 
 // Deleting a comment
@@ -92,10 +89,6 @@ const delButtonHandler = async (event) => {
     }
   }
 };
-
-
-
-
 
 inputButton.addEventListener('click', handleComment);
 window.addEventListener('load', renderButtons);

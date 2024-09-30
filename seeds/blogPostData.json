@@ -1,15 +1,22 @@
 [
-    {
-      "title": "Why MVC is so important",
-      "description": "MVC allows developers to maintain a true separation of concerns, devising their code between the Model layer for data, the View layer for design, and the Controller layer for application logic"
-    },
-    {
-      "title": "Authentication vs Authorization",
-      "description": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system."
-    },
-    {
-      "title": "Object-Relational Mapping",
-      "description": "I have really loved learning about ORMs. It's really simplified the way I create queries in SQL!"
-    }
-  ]
-  
+  {
+    "title": "The Rise of Serverless Architecture",
+    "description": "Serverless architecture is changing the way developers build and deploy applications by eliminating the need to manage infrastructure, allowing teams to focus purely on code."
+  },
+  {
+    "title": "GraphQL vs REST: Choosing the Right API",
+    "description": "GraphQL offers a more flexible approach compared to REST by allowing clients to request only the data they need. However, REST remains popular for its simplicity and widespread adoption."
+  },
+  {
+    "title": "The Future of AI in Software Development",
+    "description": "Artificial Intelligence is poised to revolutionize software development by automating testing, debugging, and even code generation, leading to faster and more efficient workflows."
+  },
+  {
+    "title": "Understanding Microservices Architecture",
+    "description": "Microservices break down large monolithic applications into smaller, independent services that can be developed, deployed, and scaled separately, improving agility and scalability."
+  },
+  {
+    "title": "Containerization with Docker: A Beginner's Guide",
+    "description": "Docker has made containerization mainstream by simplifying the process of creating, managing, and deploying containers, making it an essential tool for modern DevOps practices."
+  }
+]
