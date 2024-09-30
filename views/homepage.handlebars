@@ -1,0 +1,23 @@
+<!-- Loop over each object in the projects array -->
+{{#each blogPosts as |blogPost| }}
+<div class="row mb-4 project">
+
+    <div class="card text-white">
+            <div class="card-header bg-dark">
+            <div class="row">
+                <div class="col-9">
+                    <h2><a href="/blogPosts/{{blogPost.id}}" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-1">{{blogPost.title}}</a></h2>
+                </div>
+                <div class="col-3 text-align-center">
+                    <p class="fs-6">Created by {{blogPost.user.username}} on {{format_date blogPost.date_created}}</p>
+                </div>
+                </div>
+            </div>
+        <div class="card-body text-dark">
+            <p class="card-text">{{blogPost.description}}</p>
+        </div>
+    </div>
+
+
+</div>
+{{/each}}
