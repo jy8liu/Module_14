@@ -5,7 +5,22 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
-const sequelize = require('./config/connection');
+require('dotenv').config();
+const { Sequelize } = require('sequelize');
+
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: 'postgres',
+  protocol: 'postgres',
+  logging: false, // Disable logging; default: console.log
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false // For self-signed certificates
+    }
+  }
+});
+
+module.exports = sequelize;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
